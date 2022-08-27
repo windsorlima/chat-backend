@@ -1,6 +1,7 @@
 {
   "compilerOptions": {
     "preserveConstEnums": true,
+    "strict": false,
     "strictNullChecks": true,
     "sourceMap": true,
     "allowJs": true,
@@ -12,5 +13,8 @@
     "emitDecoratorMetadata": true,
     "experimentalDecorators": true,
     "esModuleInterop": true
-  }
+  },
+  "exclude": [
+    "node_modules"
+  ]
 }
