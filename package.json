@@ -8,8 +8,8 @@
   },
   "scripts": {
     "start:dev": "nodemon",
-    "build": "tsc --build",
-    "start": "npm run build && node .build/src/index.js"
+    "postinstall": "tsc",
+    "start": "node .build/src/index.js"
   },
   "devDependencies": {
     "@types/cors": "^2.8.12",
